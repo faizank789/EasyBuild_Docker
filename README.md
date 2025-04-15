@@ -1,9 +1,5 @@
 EasyBuild_Docker
-
-easybuild-docker/
-Dockerfile           - Dockerfile
-ebfiles/             - Put your .eb files here
-build/              - Temporary build files (auto-created)
+<pre> <code> ## Project Structure ``` easybuild-docker/ ├── Dockerfile # Dockerfile ├── ebfiles/ # Put your .eb files here └── build/ # Temporary build files (auto-created) ``` </code> </pre>
 
 Folder Breakdown
 1. build/ ➤ Temporary Build Path
