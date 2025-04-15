@@ -1,5 +1,6 @@
 # EasyBuild_Docker
 --------------------------------------------------------------------- Project Stucture -----------------
+
 easybuild-docker/
 ├── Dockerfile
 ├── ebfiles/            # Put your .eb files here
