@@ -2,9 +2,9 @@
 --------------------------------------------------------------------- Project Stucture -----------------
 
 '''easybuild-docker/
-├── Dockerfile
-├── ebfiles/            # Put your .eb files here
-└── build/              # Temporary build files (auto-created)
+   Dockerfile           - Dockerfile
+   ebfiles/             - Put your .eb files here
+   build/              - Temporary build files (auto-created)
 '''
 ---------------------------------------------------------------------------------------------------------
 Folder Breakdown
