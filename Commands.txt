@@ -1,3 +1,4 @@
+-----------------------------------------------------------------
 # Build the container
 docker build -t easybuild-hpc .
 
@@ -6,3 +7,12 @@ docker run -it --rm \
   -v $(pwd)/ebfiles:/easybuild/ebfiles \
   -v $(pwd)/software:/easybuild/software \
   easybuild-hpc
+-----------------------------------------------------------
+
+# Test EasyBuild
+eb --version
+
+# Build something
+eb OpenBLAS-0.3.21-GCC-11.2.0.eb --robot
+
+-----------------------------------------------------------
