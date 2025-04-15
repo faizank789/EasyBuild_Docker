@@ -1,7 +1,7 @@
 EasyBuild_Docker
 --------------------------------------------------------------------- Project Stucture -----------------
 
-easybuild-docker/
+- easybuild-docker/
    Dockerfile           - Dockerfile
    ebfiles/             - Put your .eb files here
    build/              - Temporary build files (auto-created)
