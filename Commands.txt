@@ -1,0 +1,8 @@
+# Build the container
+docker build -t easybuild-hpc .
+
+# Run the container with a mounted volume for access to host files
+docker run -it --rm \
+  -v $(pwd)/ebfiles:/easybuild/ebfiles \
+  -v $(pwd)/software:/easybuild/software \
+  easybuild-hpc
