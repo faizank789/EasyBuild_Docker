@@ -1,2 +1,1 @@
 
-export R_LIBS="/apps/EB2/software/R-bundle-Novartis/<Bundle name>:/apps/EB2/software/R/<Base R name>/lib64/R/library"
